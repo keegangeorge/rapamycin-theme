@@ -1,0 +1,35 @@
+.d-header .contents {
+  border-bottom: 4px solid var(--primary);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.scrolled-down {
+  .d-header .contents {
+    padding-bottom: 0;
+  }
+}
+
+#main-outlet .container {
+  padding-top: 1.5rem;
+}
+
+.scrolled-down .d-header-wrap,
+.scrolled-down header.d-header.clearfix {
+  box-shadow: none;
+}
+
+.custom-header-links .headerLink a {
+  font-size: var(--font-0-rem);
+}
+
+a.header-nav-link span {
+  color: var(--header_primary);
+  font-size: var(--font-0-rem);
+}
+
+.navigation-topics {
+  .custom-header-links .headerLink a {
+    font-weight: 700;
+  }
+}
